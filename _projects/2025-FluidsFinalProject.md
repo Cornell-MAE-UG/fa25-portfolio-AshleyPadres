@@ -46,16 +46,21 @@ p {
 <h1>Wind Turbine Blade Design Summary</h1>
 
 <p>
-This project focused on the design and experimental validation of a small horizontal-axis wind turbine blade optimized to maximize power extraction under a realistic wind speed distribution. A Weibull probability model was used to identify the wind speed that contributes most strongly to average power production, leading to a design wind speed of approximately 4.8 m/s. A MATLAB-based aerodynamic model was developed to guide blade geometry selection, operating conditions, and predicted performance prior to manufacturing and testing.
+This project focused on the design and experimental validation of a small horizontal-axis wind turbine blade optimized to maximize power extraction under a Weibull probability distribution, which is a realistic wind speed distribution. The Weibull probability model was used to identify the wind speed that contributes most strongly to average power production, leading to a design wind speed of approximately 4.8 m/s. A MATLAB-based aerodynamic model was developed to guide blade geometry selection, safe operating conditions, and predicted performance prior to manufacturing and testing.
 </p>
 
 <p>
-Airfoil selection and blade geometry were driven by aerodynamic efficiency at low Reynolds numbers and by manufacturing and safety constraints. Several candidate airfoils were evaluated, and the NACA 4412 airfoil was selected due to its high lift-to-drag ratio over a broad range of angles of attack, with a peak near 9 degrees. The blade length was set to the maximum allowable 6 inches, with a tapered chord distribution set from a taper ratio of 4, chosen to balance structural integrity near the hub with reduced aerodynamic losses near the tip. A spanwise twist distribution was then calculated to maintain the optimal angle of attack of 9 degrees along the blade at the design operating condition.
+Airfoil selection and blade geometry were driven by aerodynamic efficiency at low Reynolds numbers and by manufacturing and safety constraints. Several candidate airfoils were evaluated, and the NACA 4412 airfoil was selected due to its high lift-to-drag ratio over a broad range of angles of attack, with a peak near 9 degrees. The blade length was set to the maximum allowable 6 inches, with a tapered chord distribution set from a taper ratio of 4, chosen to balance structural integrity near the hub with reduced aerodynamic losses near the tip. A spanwise twist distribution was then calculated to maintain the optimal angle of attack of 9 degrees along the blade at the design operating RPM.
 </p>
 
 <div class="figure">
   <img src="../../assets/images/figure34.png" style="max-width:100%;">
   <br>Figure 1. Model outputs, Predicted power vs RPM (left) and Bending stress distribution (right) 
+</div>
+
+<div class="figure">
+  <img src="../../assets/images/figure56.png" style="max-width:100%;">
+  <br>Figures 2. Final CAD model (left) wind turbine and installment in the wind tunnel (right) 
 </div>
 
 <p>
@@ -64,12 +69,12 @@ The final design RPM was determined by iterating through candidate rotational sp
 
 
 <p>
-During wind tunnel testing, the blade successfully extracted power across a range of wind speeds from 4.1 to 5.8 m/s. The maximum measured power was 1.8 W at 5.8 m/s, and the blade had an optimal operating rotation speed of approximately 1770 RPM, higher than the model predicted. Observed differences between model and experiment were attributed to unmodeled effects such as friction, tip losses, and approximated induction factors. Power curves showed expected trends, with higher wind speeds producing increased torque and RPM, although the blade experienced slight resonant effects at mid-range speeds. Overall, the blade demonstrated robust performance, validating the design methodology and highlighting areas for improving predictive accuracy in future models.
+To test the design, the blades were arranged in a 3-blade configuration in a wind tunnel, and power curves were collected across a range of wind speeds from 4.1 to 5.8 m/s. The maximum measured power was 1.8 W at 5.8 m/s, and the blade had an optimal operating rotation speed of approximately 1770 RPM, higher than the model predicted. Observed differences between model and experiment were attributed to unmodeled effects such as friction, tip losses, and approximated induction factors. Power curves showed expected trends, with higher wind speeds producing increased torque and RPM, although the blade experienced slight resonant effects at mid-range speeds. Overall, the blade demonstrated robust performance, validating the design methodology and highlighting areas for improving predictive accuracy in future models.
 </p>
 
 <div class="figure">
   <img src="../../assets/images/figure89.png" style="max-width:100%;">
-  <br>Figure 2, Experimental data: Power vs. RPM (Left), Power vs wind speed (Right) at different RPMs is marked by the dashed line.
+  <br>Figure 3, Experimental data: Power vs. RPM (Left), Power vs wind speed (Right) at different RPMs is marked by the dashed line.
 </div>
 
 <p>
@@ -409,12 +414,12 @@ a maximum torque of 0.033 N-m at 1025 RPM and a maximum bending stress of 12.28 
 
 <div class="figure">
   <img src="../../assets/images/figure34.png" style="max-width:100%;">
-  <br>Figures 3 and 4. Model outputs, Predicted power vs RPM (left) and Bending stress distribution (right) (placeholders)
+  <br>Figures 3 and 4. Model outputs, Predicted power vs RPM (left) and Bending stress distribution (right) 
 </div>
 
 <div class="figure">
   <img src="../../assets/images/figure56.png" style="max-width:100%;">
-  <br>Figures 5 and 6. Final CAD model (left) wind turbine and installment in the wind tunnel (right) (placeholders)
+  <br>Figures 5 and 6. Final CAD model (left) wind turbine and installment in the wind tunnel (right) 
 </div>
 
 

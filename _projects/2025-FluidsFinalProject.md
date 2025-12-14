@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Wind Turbine Blade Optimization
+title: Wind Turbine Optimization
 description: MAE 4272 Final Report
 technologies: [Matlab]
 image: /assets/images/windturbine.jpg

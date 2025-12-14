@@ -50,7 +50,7 @@ This project focused on the design and experimental validation of a small horizo
 </p>
 
 <p>
-Airfoil selection and blade geometry were driven by aerodynamic efficiency at low Reynolds numbers and by manufacturing and safety constraints. Several candidate airfoils were evaluated, and the NACA 4412 airfoil was selected due to its high lift-to-drag ratio over a broad range of angles of attack, with a peak near 9 degrees. The blade length was set to the maximum allowable 6 inches, with a tapered chord distribution chosen to balance structural integrity near the hub with reduced aerodynamic losses near the tip. A spanwise twist distribution was then calculated to maintain the optimal angle of attack along the blade at the design operating condition.
+Airfoil selection and blade geometry were driven by aerodynamic efficiency at low Reynolds numbers and by manufacturing and safety constraints. Several candidate airfoils were evaluated, and the NACA 4412 airfoil was selected due to its high lift-to-drag ratio over a broad range of angles of attack, with a peak near 9 degrees. The blade length was set to the maximum allowable 6 inches, with a tapered chord distribution set from a taper ratio of 4, chosen to balance structural integrity near the hub with reduced aerodynamic losses near the tip. A spanwise twist distribution was then calculated to maintain the optimal angle of attack of 9 degrees along the blade at the design operating condition.
 </p>
 
 <div class="figure">
@@ -64,7 +64,7 @@ The final design RPM was determined by iterating through candidate rotational sp
 
 
 <p>
-During wind tunnel testing, the blade successfully extracted power across a range of wind speeds from 4.1 to 5.8 m/s. The maximum measured power was 1.8 W at 5.8 m/s, and the blade reached an optimal operating speed of approximately 1770 RPM, higher than the model predicted. Observed differences between model and experiment were attributed to unmodeled effects such as friction, tip losses, and approximated induction factors. Power curves showed expected trends, with higher wind speeds producing increased torque and RPM, although the blade experienced slight resonant effects at mid-range speeds. Overall, the blade demonstrated robust performance, validating the design methodology and highlighting areas for improving predictive accuracy in future models.
+During wind tunnel testing, the blade successfully extracted power across a range of wind speeds from 4.1 to 5.8 m/s. The maximum measured power was 1.8 W at 5.8 m/s, and the blade had an optimal operating rotation speed of approximately 1770 RPM, higher than the model predicted. Observed differences between model and experiment were attributed to unmodeled effects such as friction, tip losses, and approximated induction factors. Power curves showed expected trends, with higher wind speeds producing increased torque and RPM, although the blade experienced slight resonant effects at mid-range speeds. Overall, the blade demonstrated robust performance, validating the design methodology and highlighting areas for improving predictive accuracy in future models.
 </p>
 
 <div class="figure">
@@ -160,8 +160,6 @@ th, td {
 <body>
 <div class="container">
 
-<div style="height: 50px;"></div>
-<div style="height: 50px;"></div>
 <div style="height: 50px;"></div>
 <div style="height: 50px;"></div>
 <div style="height: 50px;"></div>

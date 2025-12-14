@@ -10,6 +10,85 @@ image: /assets/images/windturbine.jpg
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<title>Wind Turbine Blade Design Summary</title>
+
+<style>
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+  background: white;
+  color: black;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 24px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 20pt;
+}
+
+p {
+  font-size: 12pt;
+  line-height: 1.5;
+  text-align: justify;
+}
+</style>
+</head>
+
+<body>
+<div class="container">
+
+<h1>Wind Turbine Blade Design Summary</h1>
+
+<p>
+This project focused on the design and experimental validation of a small horizontal-axis wind turbine blade optimized to maximize power extraction under a realistic wind speed distribution. A Weibull probability model was used to identify the wind speed that contributes most strongly to average power production, leading to a design wind speed of approximately 4.8 m/s. A MATLAB-based aerodynamic model was developed to guide blade geometry selection, operating conditions, and predicted performance prior to manufacturing and testing.
+</p>
+
+<p>
+Airfoil selection and blade geometry were driven by aerodynamic efficiency at low Reynolds numbers and by manufacturing and safety constraints. Several candidate airfoils were evaluated, and the NACA 4412 airfoil was selected due to its high lift-to-drag ratio over a broad range of angles of attack, with a peak near 9 degrees. The blade length was set to the maximum allowable 6 inches, with a tapered chord distribution chosen to balance structural integrity near the hub with reduced aerodynamic losses near the tip. A spanwise twist distribution was then calculated to maintain the optimal angle of attack along the blade at the design operating condition.
+</p>
+
+<div class="figure">
+  <img src="../../assets/images/figure34.png" style="max-width:100%;">
+  <br>Figure 1. Model outputs, Predicted power vs RPM (left) and Bending stress distribution (right) 
+</div>
+
+<p>
+The final design RPM was determined by iterating through candidate rotational speeds and evaluating predicted power output, torque, free-spin speed, and bending stress while enforcing operational limits. The optimized design operated at a predicted 1050 RPM and was expected to produce approximately 3.6 W at the design wind speed while remaining safely below torque, speed, and material stress limits.
+</p>
+
+
+<p>
+During wind tunnel testing, the blade successfully extracted power across a range of wind speeds from 4.1 to 5.8 m/s. The maximum measured power was 1.8 W at 5.8 m/s, and the blade reached an optimal operating speed of approximately 1770 RPM, higher than the model predicted. Observed differences between model and experiment were attributed to unmodeled effects such as friction, tip losses, and approximated induction factors. Power curves showed expected trends, with higher wind speeds producing increased torque and RPM, although the blade experienced slight resonant effects at mid-range speeds. Overall, the blade demonstrated robust performance, validating the design methodology and highlighting areas for improving predictive accuracy in future models.
+</p>
+
+<div class="figure">
+  <img src="../../assets/images/figure89.png" style="max-width:100%;">
+  <br>Figure 2, Experimental data: Power vs. RPM (Left), Power vs wind speed (Right) at different RPMs is marked by the dashed line.
+</div>
+
+<p>
+Despite the discrepancies in absolute power and rotational speed, the results confirm that systematic optimization of airfoil selection, taper, and twist produces a functional turbine blade capable of extracting meaningful power under realistic operating conditions. The experimental evaluation provides valuable insights for refining future turbine models and improving alignment between predicted and actual performance.
+</p>
+
+<p>
+See below for more thorough breakdown of the design and testing results.
+</p>
+
+</div>
+</body>
+</html>
+
+
+
+<html lang="en">
+<head>
+<meta charset="UTF-8">
 <title>Blade Design Final Report – MAE 4272</title>
 
 <!-- MathJax -->
@@ -81,8 +160,14 @@ th, td {
 <body>
 <div class="container">
 
-<p>
-</p>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
+<div style="height: 50px;"></div>
 
 <h1>Blade Design Final Report</h1>
 
@@ -473,7 +558,7 @@ In addition, the model also overpredicts free spin, a prediction that worsens as
 
 <div class="figure">
   <img src="../../assets/images/figure11.png" style="max-width:100%;">
-  <br>Figure 11. all experimental vs model power curves comparing predicted free spin speed (placeholder)
+  <br>Figure 11. all experimental vs model power curves comparing predicted free spin speed.
 </div>
 
 

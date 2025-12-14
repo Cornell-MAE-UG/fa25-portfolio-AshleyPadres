@@ -1,25 +1,16 @@
 ---
 layout: project
-title: Radio CAD Rendering
-description: Advanced CAD Project
-technologies: [Autodesk Fusion]
+title: Wind Turbine Blade Optimization
+description: MAE 4272 Final Report
+technologies: [Matlab]
 image: /assets/images/radio-machine-cad.jpg
 ---
 
-For a class, we were asked to CAD a complex object. This design was...Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut nec accumsan leo. Pellentesque ornare orci enim, vitae vestibulum nibh rutrum in. Donec pharetra risus nec ipsum fringilla, et mattis tortor auctor. Duis tortor ante, posuere ut odio a, scelerisque interdum purus. Aenean faucibus luctus est, sed bibendum tellus. 
+Blade Design Final Report
+MAE 4272, Fall 2025
+Lab 408, Group 3, Blade 83
+Ashley Padres, Julia Deffner, Ella Yellin, Anna-Sophie Schaldenbrand
+December 12, 2025
 
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-![Shaded rendering of earlier version]({{ "/assets/images/radio-machine.jpg" | relative_url }}){: .inline-image-r style="width: 200px"}
-
-Nulla et magna urna. Morbi a ipsum sollicitudin, rhoncus risus volutpat, ultricies nunc. Quisque mollis finibus ante id imperdiet. Quisque vehicula elit sit amet felis facilisis fermentum.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-I was inspired by this old radio when I made this rendering:
-
-![Photo of old radio]({{ "/assets/images/old-radio.jpg" | relative_url }}){: .inline-image-l}
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
-
-Aenean tincidunt aliquam arcu, in euismod dui dapibus eu. In placerat, mi et ultrices consequat, quam ligula cursus mauris, in semper neque nibh at est. Maecenas hendrerit dignissim porta. Phasellus nec fringilla dolor. Etiam efficitur nisi sit amet velit pharetra feugiat. Etiam ultrices turpis at leo semper, eleifend scelerisque neque malesuada. Aliquam molestie congue rhoncus. Donec blandit neque dolor, nec tristique mi pretium ac. Mauris tincidunt ullamcorper magna, nec pellentesque mi sagittis quis.
+1.  Executive Summary
+This report outlines the process of designing and testing a small horizontal-axis wind turbine to maximize extracted power under an oncoming wind velocity distribution. Specifically, the wind turbine is optimized for use in an oncoming wind velocity of 4.8 m/s, the average velocity that would extract max power under its experienced Weibull distribution of velocities. To design the blade, a MATLAB model was developed to optimize the design. This included selecting an airfoil designation of NACA 4412, determining chord length and pitch as a function of radius, solving for the forces and stresses experienced by the blade, predicting output power curves, and iterating to determine the design angular velocity. The chosen design predicted a design RPM of 1050 that would extract 3.61 W at an oncoming wind speed of 4.82 m/s. The designed wind turbine was then tested at five different oncoming wind speeds, and experimental power graphs were recorded for each. Comparing the model predicted behavior with the experimental behavior, the actual wind turbine produced less power but spun faster, likely a result of the model’s assumptions. The maximum power extracted observed was 1.8 W at an oncoming wind speed of 5.8 m/s. Ultimately, while the wind turbine underperformed relative to what the model predicted, the performance demonstrates how optimizing the taper, twist, and CL/CD can result in a blade that maximizes power output under a Weibull distribution.

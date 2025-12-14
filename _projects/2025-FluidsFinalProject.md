@@ -73,7 +73,7 @@ During wind tunnel testing, the blade successfully extracted power across a rang
 </div>
 
 <p>
-Despite the discrepancies in absolute power and rotational speed, the results confirm that systematic optimization of airfoil selection, taper, and twist produces a functional turbine blade capable of extracting meaningful power under realistic operating conditions. The experimental evaluation provides valuable insights for refining future turbine models and improving alignment between predicted and actual performance.
+Despite the discrepancies in absolute power and rotational speed, the results confirm that systematic optimization of airfoil selection, taper, and twist produces a functional turbine blade capable of extracting meaningful power under realistic operating conditions. As I lead the development process of the iterative matlab code to inform our design choices and verify these safety operations, it was satisfying to confirm relative success of the model. 
 </p>
 
 <p>

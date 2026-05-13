@@ -2,7 +2,7 @@
 layout: project
 title: Mechatronics Robot
 description: MAE 3780 Robot Competition Report (Images, Circuitry, and Code)
-technologies: [Fusion 360, Tinkercad Circuitry]
+technologies: [Fusion 360, Tinkercad Circuitry, Arduino C Code]
 image: /assets/images/robot-image.png
 ---
 
@@ -46,7 +46,7 @@ p {
 <h1>Robot Competition Objectives and Design Summary</h1>
 
 <p>
-The objective of this robot, designed for the MAE 3780 - Mechatronics class, was to apply the circuitry and arduino knowledge learned throughout the course to an actual, physical project. The task at hand was to collect more blocks than your opponent robot within a 1 minute timeframe, where the blocks were distributed along the center of blue and yellow board that had a black outline. The details for my team's final robot, including images of CAD, the robot circuit, and the robot arduino code, can be found in the project summary below.
+The objective of this robot, designed for the MAE 3780 - Mechatronics class, was to apply the circuitry and arduino knowledge learned throughout the course to an actual, physical project. The task at hand was to collect more blocks than your opponent robot within a 1 minute timeframe, where the blocks were distributed along the center of a blue and yellow board that had a black outline. Throughout the course of this project, I got the opportunity to practice creating circuit diagrams based on the spec sheets for the various components we wanted to use, and I got a better understanding of working with raw C code in an arduino environment. The details for my team's final robot, including images of CAD, the robot circuit, and the robot arduino code, can be found in the project summary below.
 </p>
 
 

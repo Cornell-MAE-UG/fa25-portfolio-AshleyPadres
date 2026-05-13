@@ -1,9 +1,9 @@
 ---
 layout: project
-title: Mechatronics Final Project
+title: Mechatronics Robot
 description: MAE 3780 Robot Competition Report (Images, Circuitry, and Code)
 technologies: [Fusion 360, Tinkercad Circuitry]
-image: /assets/images/robot-image.jpg
+image: /assets/images/robot-image.png
 ---
 
 
